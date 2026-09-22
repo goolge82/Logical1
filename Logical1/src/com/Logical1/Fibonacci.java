@@ -29,12 +29,13 @@ public class Fibonacci {
 //		System.out.print(i+" "); //-----> third step
 //		i=i+1/i++/i=i-1/i----->increment/decrement-----> fourth step
 		
-		for(int i=1; i<=n; i++) {
+		for(int i=1; i<=n-2; i++) {
 			
 			
-			System.out.print(a+" ");
+//			System.out.print(a+" ");
 			
 			int c=a+b;
+			System.out.println(c);
 			a=b;
 			b=c;
 			

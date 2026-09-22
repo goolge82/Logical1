@@ -3,6 +3,8 @@ package com.Logical1;
 import java.util.Scanner;
 
 public class Factors {
+	
+//	
 
 	public static void main(String[] args) {
 
